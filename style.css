@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner-link-box {
+    display: block;
+    background-color: #ccc;
+    width: 600px;
+    height: 176px;
+}
+
+.banner {
+    outline: 2px solid red;
+    width: 100%;
+    height: 100%;
+
+    /* 배경 레이어 추가 */
+    background-image: 
+        url('images/Iron-Man176.png'), 
+        url('images/Tank.gif');
+}
